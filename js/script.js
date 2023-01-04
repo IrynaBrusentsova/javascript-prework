@@ -49,12 +49,17 @@ function playGame(playerInput) {
     }
     displayResult(argComputerMove, argPlayerMove);
 }
-document.getElementById('play-rock').addEventListener('click', function () {
+
+const playRock = document.getElementById('play-rock');
+playRock.addEventListener('click', function () {
     playGame(1);
 });
-document.getElementById('play-paper').addEventListener('click', function () {
+const playPaper = document.getElementById('play-paper');
+playPaper.addEventListener('click', function () {
     playGame(2);
 });
-document.getElementById('play-scissors').addEventListener('click', function () {
+const playScissors = document.getElementById('play-scissors');
+playScissors.addEventListener('click', function () {
     playGame(3);
 });
+
