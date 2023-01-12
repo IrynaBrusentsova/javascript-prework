@@ -7,10 +7,10 @@
 body {
     margin: 0;
     padding: 15px;
-    /* background-color: rgb(58, 92, 81); */
     background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-paper-cannabis-leaves-background-picture-image_1159265.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-position: center;
     height: 100vh;
     color: #ddddef;
     font-size: 36px;
@@ -44,12 +44,14 @@ body {
     margin-bottom: 30px;
     transition: all 1.5s;
     cursor: pointer;
-    box-shadow: 8px 8px 24px 0px rgba(162, 96, 204, 1);
+    
 }
 .btn:hover {
     background-color: rgb(116, 145, 11);
 }
-
+p{
+    margin: 0;
+}
 
 /* Tablet */
 @media (min-width: 768px) {
